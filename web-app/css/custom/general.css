@@ -1,0 +1,40 @@
+/**
+    nombre  : general.css
+    autor   : Arnoldo Iglesias Ramos 2013
+    descripcion : Incluye las tipografias especiales que vamos a utilizar en la
+    pagina, asi como todos aquellos estilos que afecten las etiquetas como body
+    html, etc. tambien le da estilo a las clases generales de la pagina
+    
+*/
+
+@import url("http://fonts.googleapis.com/css?family=Kite+One");
+@import url("http://fonts.googleapis.com/css?family=Roboto");
+
+body
+{
+    font-family:"Roboto";
+    font-size: 14px;
+    background-color:#660000;
+}
+
+.pageSeparator
+{
+    margin:0;
+    border-color:#F00;
+    width: 50%;
+}
+
+.clearer{ clear:both; }
+ 
+#pageContent
+{
+    background-color:#FFF;
+    margin-bottom:0;
+}
+
+#pageFooter
+{
+    margin-top:0;
+    background-color:#F0F;
+    height: 40px;
+}

@@ -1,0 +1,26 @@
+/* 
+    Document   : header
+    Created on : Jul 25, 2013, 2:30:47 PM
+    Author     : Orfeo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#pageHeader
+{ 
+    /* Gris oscuro */
+    background-color: #333;
+    
+    /* configuracion del logo */
+    background-image: url("../../images/logos/MilasaLogo001.png");
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: 1% 50%;
+    
+    /* tipografia */
+    font-family:"Kite One";
+    color:#FFF;
+}
+
+#headerContainer { margin-left:8%; }
+

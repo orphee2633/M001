@@ -4,14 +4,14 @@ import MILASA.Productos.TiposEspeciales.GeneracionProducto
 class Sistema 
 {
     String nombre
-    String version
+    String ultimaVersion
     String descripcion
     GeneracionProducto generacion
     
     static mapping =
     {
         nombre      sqlType: 'VARCHAR(20)'
-        version     sqlType: 'VARCHAR(10)'
+        ultimaVersion     sqlType: 'VARCHAR(10)'
         descripcion sqlType: 'VARCHAR(255)'
     }
     
