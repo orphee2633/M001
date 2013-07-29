@@ -29,12 +29,5 @@ body
 #pageContent
 {
     background-color:#FFF;
-    margin-bottom:0;
-}
-
-#pageFooter
-{
-    margin-top:0;
-    background-color:#F0F;
-    height: 40px;
+    margin:0px;
 }
