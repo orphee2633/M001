@@ -48,7 +48,8 @@
       
       <!-- Page Footer -->
       <footer id="pageFooter">
-        <h4>Ave. L&oacute;pez Mateos #4010 local 8 Tel. 6-11-43-87</h4>
+        <p class="text-center">Ave. L&oacute;pez Mateos #4010 local 8 Tel. 6-11-43-87</p>
+        <p class="text-center">Distribuidor Master CONTPAQi 2013</p>
       </footer>
       <!-- End Page Footer -->
       

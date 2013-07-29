@@ -1,6 +1,6 @@
 <!-- Page Navigation -->
 <%@ page import="MILASA.Productos.Sistema" %>
-<nav class="navbar navbar-inverse">
+<nav id="pageNavigation" class="navbar navbar-inverse">
   <div class="navbar-inner">
     <ul class="nav">
       <li class="active"><a href="#">Inicio</a></li>
