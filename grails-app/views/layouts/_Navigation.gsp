@@ -20,7 +20,12 @@
       <li class="divider-vertical"></li>
     </ul>
     <ul class="nav pull-right">
-      <g:render template="/layouts/Sesion" />
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><g:message code="MILASA.Navigation.Login" /></a>
+        <ul class="dropdown-menu">
+          <li><g:render template="/layouts/Sesion" /></li>
+        </ul>
+      </li>
     </ul>
   </div>
 </nav>

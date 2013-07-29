@@ -16,3 +16,4 @@ body
     margin-right:auto;
 }
 
+#pageContent { min-height: 500px; }
