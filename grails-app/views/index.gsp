@@ -14,6 +14,7 @@
     <link href="${resource(dir: 'css/custom', file: 'general.css', absolute:true)}" rel="stylesheet" />
     <link href="${resource(dir: 'css/custom', file: 'header.css', absolute:true)}" rel="stylesheet" />
     <link href="${resource(dir: 'css/custom', file: 'navigation.css', absolute:true)}" rel="stylesheet" />
+    <link href="${resource(dir: 'css/custom', file: 'footer.css', absolute:true)}" rel="stylesheet" />
     <!-- Fin Estilos Visuales -->
     
     <!-- Javascript -->
@@ -25,7 +26,7 @@
     <![endif]-->
     <!-- Fin Javascript -->
     
-    <title>MILASA en l&iacute;nea</title>
+    <title><g:message code="MILASA.Page.Title" /></title>
   </head>
   <body>
     <!-- Page Wrapper -->    
@@ -40,6 +41,9 @@
       <!-- Page Content -->
       <div class="container" id="pageContent">
         <div class="span4">
+          <img src="${resource(dir:'images/logos', file:"CONTPAQiLogo001.png", absolute:true)}" />
+        </div>
+        <div class="span7">
           <h2>Bienvenido a MILASA</h2>
           <p>Esto es un texto de prueba</p>
         </div>
@@ -47,10 +51,7 @@
       <!-- end Page Content -->
       
       <!-- Page Footer -->
-      <footer id="pageFooter">
-        <p class="text-center">Ave. L&oacute;pez Mateos #4010 local 8 Tel. 6-11-43-87</p>
-        <p class="text-center">Distribuidor Master CONTPAQi 2013</p>
-      </footer>
+      <g:render template="/layouts/Footer" />
       <!-- End Page Footer -->
       
     </div>
