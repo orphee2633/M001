@@ -9,49 +9,48 @@
     <!-- Fin meta -->
     
     <!-- Estilos Visuales -->
-    <link href="${resource(dir: 'css', file: 'reset.css', absolute:true)}" rel="stylesheet" />
-    <link href="${resource(dir: 'css', file: 'general.css', absolute:true)}" rel="stylesheet" />
-    <link href="${resource(dir: 'css', file: 'header.css', absolute:true)}" rel="stylesheet" />
+    <link href="${resource(dir: 'css/bootstrap', file: 'bootstrap.css', absolute:true)}" rel="stylesheet" />
+    <link href="${resource(dir: 'css/bootstrap', file: 'bootstrap-responsive.css', absolute:true)}" rel="stylesheet" />
+    <link href="${resource(dir: 'css/custom', file: 'general.css', absolute:true)}" rel="stylesheet" />
+    <link href="${resource(dir: 'css/custom', file: 'header.css', absolute:true)}" rel="stylesheet" />
+    <link href="${resource(dir: 'css/custom', file: 'navigation.css', absolute:true)}" rel="stylesheet" />
     <!-- Fin Estilos Visuales -->
     
     <!-- Javascript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="${resource(dir:'js/bootstrap', file: 'bootstrap.js', absolute: true)}"></script>
     <!--[if lt IE 9]>
     <script src="${resource(dir: 'js/html5shiv', file: 'html5shiv.js', absolute: true)}"></script>
     <![endif]-->
     <!-- Fin Javascript -->
+    
     <title>MILASA en l&iacute;nea</title>
   </head>
   <body>
     <!-- Page Wrapper -->    
-    <div id="PageWrapper">
+    <div class="container">
       
-      <!-- Page Header -->
-      <header id="PageHeader">
-        <div id="HeaderContainer">
-          <h1 id="PageTitle">MILASA</h1>
-          <hr id="PageTitleSeparator"/>
-          <h4 id="PageSubtitle">Microinform&aacute;tica y L&oacute;gica Avanzada S.A. de C.V.</h4>
-        </div>
-      </header>
-      <!-- end Page Header -->
+      <!-- Render the header -->
+      <g:render template="/layouts/Header" />
       
-      <!-- Page Navigation -->
-      <nav id="PageNavigation">
-        <ul>
-          <li class="NavigationElement"><a href="#">Home</a> </li>
-          <li class="NavigationElement"><a href="#">Preguntas Frecuentes</a> </li>
-          <li class="NavigationElement"><a href="#">Cotizaciones</a> </li>
-          <li class="NavigationElement"><a href="#">Promociones</a> </li>
-        </ul>
-      </nav>
-      <!-- end Page Navigation -->
+      <!-- Render the menu -->
+      <g:render template="/layouts/Navigation" />
       
       <!-- Page Content -->
-      <div id="PageContent">
+      <div class="container" id="pageContent">
+        <div class="span4">
+          <h2>Bienvenido a MILASA</h2>
+          <p>Esto es un texto de prueba</p>
+        </div>
       </div>
       <!-- end Page Content -->
+      
+      <!-- Page Footer -->
+      <footer id="pageFooter">
+        <h4>Ave. L&oacute;pez Mateos #4010 local 8 Tel. 6-11-43-87</h4>
+      </footer>
+      <!-- End Page Footer -->
       
     </div>
     <!-- end Page Wrapper -->

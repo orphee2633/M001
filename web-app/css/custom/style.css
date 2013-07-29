@@ -72,14 +72,14 @@ body
 
 #PageNavigation
 {
-	width:100%;
+    width: 100%;   
 }
 
 #NavigationList
 { 
-	text-align:center;
 	background-color:#AAA; 
 	padding:10px; 
+        text-align: right;
 }
 
 .NavigationElement

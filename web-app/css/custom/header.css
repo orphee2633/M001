@@ -6,17 +6,13 @@
         Purpose of the stylesheet follows.
 */
 
-#PageHeader
+#pageHeader
 { 
-    /* Medidas */
-    height:110px;
-    padding:10px;
-    
     /* Gris oscuro */
     background-color: #333;
     
     /* configuracion del logo */
-    background-image: url("../images/logos/MilasaLogo001.png");
+    background-image: url("../../images/logos/MilasaLogo001.png");
     background-repeat: no-repeat;
     background-size: 80px 80px;
     background-position: 1% 50%;
@@ -26,24 +22,5 @@
     color:#FFF;
 }
 
-#HeaderContainer
-{
-    height: 80px;
-    margin-top: 20px;
-    margin-left:8%;
-}
-
-#PageTitle
-{
-    font-size:32px;
-    font-weight:bold;
-}
-
-#PageTitleSeparator { border-color:#F00; }
-
-#PageSubtitle 
-{ 
-    font-size:18px;
-    font-family:"Roboto";
-}
+#headerContainer { margin-left:8%; }
 
